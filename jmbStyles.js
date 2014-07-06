@@ -1,7 +1,8 @@
 function changeStyle(newStyle){
   var currentCss = ($('[rel=stylesheet]')[0]);
   $(currentCss).remove();
-  $('head').append('<link id="currentTheme" rel="stylesheet" href="css/' + newStyle + '.min.css" type="text/css" />');
+  $('head').append('<link id="currentTheme" rel="stylesheet" href="/packages/stylesSelection/lib/public/css/' + newStyle + '.min.css" type="text/css" />');
+  Session.set('cssFile', 'newStyle.min.css');
 }
 
 Template.jmbStyles.events({
