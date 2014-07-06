@@ -3,6 +3,6 @@
 	"description": "Automatically change css file from a selection.",
 	"homepage": "https://github.com/pszjmb1/stylesSelection",
 	"author": "Jesse Blum <jesse.blum@nottingham.ac.uk",
-	"verion": "0.1",
+	"version": "0.1",
 	"git": "https://github.com/pszjmb1/stylesSelection.git"
 }
